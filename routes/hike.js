@@ -1,4 +1,4 @@
-exports.index = funciton(req, res) {
+exports.index = function(req, res) {
 	res.render('hike', {title: "My hiking log"});
 };
 
